@@ -19,7 +19,7 @@ canvas{display:block;flex:1;min-height:0;width:100%}
 <div class="bar"><label>escolher vídeo<input type="file" accept="video/*" id="arq"></label><button id="baixar" type="button">baixar vídeo</button></div>
 <script>
 // Nível 3 do método RISE: reel 9:16. Metade de cima: calendário vira até o dia 7.
-// Metade de baixo: o seu vídeo (botão "escolher vídeo"), com legenda de até 3 palavras; a palavra falada acende.
+// Metade de baixo: o seu vídeo (botêo "escolher vídeo"), com legenda de até 3 palavras; a palavra falada acende.
 // Tudo desenhado por render(ctx, t, theme, w, h). Loop de 10 s. ?t=5 congela.
 const DUR = 10;
 const theme = { bg: '#f6ecdf', ink: '#2a1f18', accent: '#d9577a', soft: '#a8927f', font: 'Inter' };
@@ -85,7 +85,7 @@ function render(ctx, t, th, w, h) {
     });
     ctx.textAlign = 'center';
   }
-  // grão sobre tudo
+  // grêo sobre tudo
   for (let i = 0; i < 700; i++) { ctx.fillStyle = `rgba(255,255,255,${hash(i, 9) * .05})`; ctx.fillRect(hash(i, 7) * w, hash(i, 8) * h, 1.2, 1.2); }
 }
 

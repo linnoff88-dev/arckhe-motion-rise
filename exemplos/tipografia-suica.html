@@ -11,7 +11,7 @@
 <canvas id="c"></canvas>
 <script>
 // Estilo 03 (pôster suíço): a palavra sobe de uma máscara, uma onda de peso percorre as letras,
-// o disco vermelho pula pela grade na batida. Loop de 5 s. Função pura render(ctx, t, theme, w, h).
+// o disco vermelho pula pela grade na batida. Loop de 5 s. Funçêo pura render(ctx, t, theme, w, h).
 const DUR = 5;
 const theme = { bg: '#0f0f0e', ink: '#f1eee7', accent: '#ff3b1f', font: 'Inter' };
 const PALAVRA = 'Motion';
@@ -30,7 +30,7 @@ function render(ctx, t, th, w, h) {
   // grade (fios finos)
   ctx.strokeStyle = 'rgba(241,238,231,.07)'; ctx.lineWidth = 1;
   for (let i = 0; i <= 12; i++) { const x = m + i * col; ctx.beginPath(); ctx.moveTo(x, m); ctx.lineTo(x, h - m); ctx.stroke(); }
-  // disco: muda de posição a cada batida (5 posições, volta à primeira)
+  // disco: muda de posiçêo a cada batida (5 posições, volta à primeira)
   const pos = [[9, .2], [10.5, .16], [8, .22], [10, .14], [9, .2]];
   const bt = t / DUR * 4, i0 = Math.floor(bt), u = inOut(clamp((bt - i0) / .5));
   const a = pos[i0], b = pos[Math.min(i0 + 1, 4)];
@@ -60,7 +60,7 @@ function render(ctx, t, th, w, h) {
   ctx.font = `500 ${Math.max(12, size * .07)}px ${th.font}, sans-serif`;
   ctx.fillStyle = 'rgba(241,238,231,.7)';
   ctx.fillText('Estilo 03 · pôster suíço', m, m + size * .07);
-  // grão
+  // grêo
   for (let i = 0; i < 1500; i++) { ctx.fillStyle = `rgba(255,255,255,${hash(i, 9) * .05})`; ctx.fillRect(hash(i, 7) * w, hash(i, 8) * h, 1.3, 1.3); }
 }
 

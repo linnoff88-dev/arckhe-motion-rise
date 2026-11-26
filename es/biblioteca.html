@@ -56,16 +56,16 @@
 <p>Escribe siempre en este orden: <b>R</b>referencias, <b>I</b>idea, <b>S</b>estilo, <b>E</b>examinar.</p>
 <p>Probado con <b>Claude Opus 5.5</b>. Cambia lo que está entre <code>[colchetes]</code>.</p>
 <h3>Versión corta (copia y completa)</h3>
-<div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R: Aqui está [meu arquivo, imagem ou URL]. O logotipo, as cores e as fontes da marca foram extraídos e estão anexados. Use exatamente esses.
+<div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R: Aqui está [meu arquivo, imagem ou URL]. O logotipo, as cores e as fontes da marca foram extraídos e estêo anexados. Use exatamente esses.
 I: Um loop de [10] segundos. Início: [o que aparece primeiro]. Meio: [a única mudança]. Fim: [como termina]. O último frame é igual ao primeiro.
 S: Visual: [fundo], [cor da tinta], uma cor de destaque [cor], fonte [fonte], textura real. Movimento: [lento e suave, ou rápido e seco]; [o que se move primeiro]. [1920x1080].
-E: Desenhe todos os frames em código a partir de uma única função render(t). Adicione textura real para parecer feito à mão. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
+E: Desenhe todos os frames em código a partir de uma única funçêo render(t). Adicione textura real para parecer feito à mêo. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
 <h3>La línea que va en TODO prompt (es la "E")</h3>
-<div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">Desenhe todos os frames em código a partir de uma única função render(t). Adicione textura real para parecer feito à mão. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
+<div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">Desenhe todos os frames em código a partir de uma única funçêo render(t). Adicione textura real para parecer feito à mêo. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
 <h3>Versión completa (usada en los estilos)</h3>
 <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R — REFERÊNCIAS
 Use os arquivos, imagens, vídeos, sites e identidade visual fornecidos como fonte de verdade.
-Não invente logotipos, cores ou tipografia quando existirem referências reais.
+Nêo invente logotipos, cores ou tipografia quando existirem referências reais.
 
 I — IDEIA
 Uma imagem com início, meio e fim, [X] segundos, em loop sem costura:
@@ -84,7 +84,7 @@ Regras:
 5. [regra]
 
 E — EXAMINAR
-Construa um único arquivo HTML: um &lt;canvas&gt; e uma função pura render(ctx, t, theme, w, h) que desenha o frame t (0–[X] s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
+Construa um único arquivo HTML: um &lt;canvas&gt; e uma funçêo pura render(ctx, t, theme, w, h) que desenha o frame t (0–[X] s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
 Renderize 5 frames (t = 0, [X/4], [X/2], [3X/4], [X]). Confira: o frame 0 é igual ao frame final; [checagens específicas da cena]. Corrija o que falhar e renderize de novo até todas as checagens passarem.</pre></div></article>
 <article class="pedido"><h2 id="99-checklist-10-falhas">Checklist — las 10 fallas que delatan una animación amateur</h2>
 <p>Revisa cada frame antes de publicar:</p>
@@ -100,7 +100,7 @@ Renderize 5 frames (t = 0, [X/4], [X/2], [3X/4], [X]). Confira: o frame 0 é igu
 7. Texto que some rápido: toda palavra fica na tela pelo menos 1,2 s.
 8. Logo inventado: use o arquivo real. Nunca desenhe um logo de memória.
 9. Fundo carregado: uma ideia sobre um fundo calmo.
-10. Sem textura: grão real e ruído sutil, para parecer feito à mão.</pre></div></article>
+10. Sem textura: grêo real e ruído sutil, para parecer feito à mêo.</pre></div></article>
 <h2 class="grupo">Los 7 niveles</h2>
 <article class="pedido"><h2 id="nivel-1-slide-animado">Nivel 1 — Una diapositiva que se mueve sola</h2>
 <p>Loop de 10 s: un haz de luz recorre una línea de tiempo y enciende tres hitos.</p>
@@ -108,7 +108,7 @@ Renderize 5 frames (t = 0, [X/4], [X/2], [3X/4], [X]). Confira: o frame 0 é igu
 <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R: Aqui está o meu slide (screenshot anexado).
 I: Um loop de 10 segundos que explica a ideia do slide: um feixe de luz percorre uma linha do tempo e acende três marcos.
 S: Visual: papel marfim, linhas em tinta preta, um único destaque laranja-argila. Movimento lento e suave; o último frame é igual ao primeiro. 1920x1080.
-E: Desenhe todos os frames em código a partir de uma única função render(t). Adicione textura real para parecer feito à mão. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
+E: Desenhe todos os frames em código a partir de uma única funçêo render(t). Adicione textura real para parecer feito à mêo. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
 <p><b>Por qué funciona:</b> la R fija la composición a la diapositiva real; la I tiene una única transformación (el haz); la S limita la paleta a propósito; la E obliga al modelo a mirar su propio resultado.</p></article>
 <article class="pedido"><h2 id="nivel-2-hero-de-site">Nivel 2 — El hero de un sitio web cobra vida</h2>
 <p>Una onda de voz se convierte en pájaros que escriben tu título y, en el pie de página, forman el nombre de la marca.</p>
@@ -116,12 +116,12 @@ E: Desenhe todos os frames em código a partir de uma única função render(t).
 <h3>Antes: extraer la identidad visual del sitio</h3>
 <p>Necesitas los colores, las fuentes, el logotipo y los textos reales del sitio. Dos formas:</p>
 <ol><li><b>Con un servicio pago de extracción de identidad visual</b>, que lee el sitio y devuelve logotipo, colores y letras. Útil para muchos sitios a la vez.</li><li><b>Sin servicio externo</b> — pídele a la propia IA:</li></ol>
-<div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">Abra [seusite.com], leia o HTML e o CSS e me devolva em lista: nome da marca, URL do logotipo (SVG se houver), 2 a 4 cores principais em hex, fontes de título e de texto, título e subtítulo do hero. Não invente nada: só o que estiver no código do site.</pre></div>
+<div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">Abra [seusite.com], leia o HTML e o CSS e me devolva em lista: nome da marca, URL do logotipo (SVG se houver), 2 a 4 cores principais em hex, fontes de título e de texto, título e subtítulo do hero. Nêo invente nada: só o que estiver no código do site.</pre></div>
 <h3>El prompt</h3>
 <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R: Aqui está [seusite.com]. As cores, fontes, logotipo e textos foram extraídos do site (anexados).
-I: O hero: uma onda de voz vira pássaros da cor de destaque que voam até um campo de texto e viram palavras digitadas. Mantenha o título, o subtítulo e o botão como texto HTML real. Adicione um rodapé em que os pássaros formam o nome da marca atrás de links normais.
+I: O hero: uma onda de voz vira pássaros da cor de destaque que voam até um campo de texto e viram palavras digitadas. Mantenha o título, o subtítulo e o botêo como texto HTML real. Adicione um rodapé em que os pássaros formam o nome da marca atrás de links normais.
 S: Visual: as cores, fontes e textura da própria marca. Movimento calmo; os pássaros seguem o cursor com suavidade e se espalham no clique.
-E: Desenhe todos os frames em código a partir de uma única função render(t). Adicione textura real para parecer feito à mão. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
+E: Desenhe todos os frames em código a partir de uma única funçêo render(t). Adicione textura real para parecer feito à mêo. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
 <p><b>El punto clave:</b> el texto importante va en HTML (accesible, nítido, indexable); solo lo decorativo va al canvas.</p></article>
 <article class="pedido"><h2 id="nivel-3-reel-com-legenda">Nivel 3 — Reel con animación + subtítulos sincronizados</h2>
 <p>Mitad superior: un gráfico animado. Mitad inferior: tu video, con subtítulos palabra por palabra.</p>
@@ -129,23 +129,23 @@ E: Desenhe todos os frames em código a partir de uma única função render(t).
 <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R: Frames de um dos meus reels, mais um clipe de 10 segundos meu falando, com o tempo de cada palavra (arquivo de legenda com timestamps por palavra).
 I: Metade de cima: um gráfico animado para a frase "Pare de usar as duas IAs separadas. Use as duas juntas." Metade de baixo: o meu clipe.
 S: Visual escuro, com os logotipos reais das duas ferramentas (arquivos anexados) e tipografia grande. Movimento: os dois logotipos se aproximam e se encaixam. Legendas: no máximo 3 palavras, sincronizadas por palavra, a palavra falada acende. Três visuais de legenda: serifa editorial, sans pesada em caixa, e um visual premium à sua escolha. 1080x1920.
-E: Desenhe todos os frames em código a partir de uma única função render(t). Adicione textura real para parecer feito à mão. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
+E: Desenhe todos os frames em código a partir de uma única funçêo render(t). Adicione textura real para parecer feito à mêo. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
 <p><b>Consejo:</b> el tiempo de cada palabra se obtiene de cualquier transcriptor con marcas de tiempo por palabra (p. ej.: Whisper). Sin eso, los subtítulos no «se encienden» en el momento correcto.</p></article>
 <article class="pedido"><h2 id="nivel-4-uma-cena-varios-formatos">Nivel 4 — Una escena en todos los formatos</h2>
 <p>Una sola escena con un diseño propio para 16:9, 9:16 y 1:1: toda la composición visible en cada uno.</p>
 <p>Dónde usarlo: la misma pieza para video horizontal, stories/vertical, feed cuadrado y anuncios.</p>
-<div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R: A minha narração termina com: "Com café suficiente, tudo é possível."
+<div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R: A minha narraçêo termina com: "Com café suficiente, tudo é possível."
 I: Uma xícara de café cujo vapor desenha uma tela de vídeo, uma tela de fotos e um post curto, cada uma com uma pequena cena viva, e depois volta a se enrolar para dentro da xícara.
 S: Visual editorial escuro com luz quente de café. Movimento suave, 10 segundos, e o último frame é igual ao primeiro. UMA cena que se reorganiza para 16:9, 9:16 e 1:1 (nunca um recorte). Deixe a palavra BEBIDA = café numa linha separada, no topo da receita, para eu poder trocar.
-E: Desenhe todos os frames em código a partir de uma única função render(t). Adicione textura real para parecer feito à mão. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
+E: Desenhe todos os frames em código a partir de uma única funçêo render(t). Adicione textura real para parecer feito à mêo. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
 <p><b>Recortar × reorganizar:</b> recortar corta los bordes de la misma escena; reorganizar crea una composición nueva para cada proporción, con la misma idea. La línea BEBIDA = café muestra otro truco: dejar la palabra que cambia al principio de la receta para reutilizar la pieza.</p></article>
 <article class="pedido"><h2 id="nivel-5-logo-animado-com-jingle">Nivel 5 — Cualquier logotipo animado, con jingle propio</h2>
 <p>Una revelación de 5 s para cada marca y un jingle de 3 s escrito en código.</p>
 <p>Dónde usarlo: apertura de una presentación para un cliente, cortinilla, intro de video.</p>
 <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R: Os logotipos oficiais (SVG) extraídos dos sites de [marca A], [marca B], [marca C] e [marca D].
-I: Uma revelação de 5 segundos para cada uma, com uma ideia diferente por marca: na marca de blocos, os blocos se montam; na marca divertida, o mascote pula; na marca de música, os arcos pulsam na batida; na marca esportiva, o símbolo risca a tela.
+I: Uma revelaçêo de 5 segundos para cada uma, com uma ideia diferente por marca: na marca de blocos, os blocos se montam; na marca divertida, o mascote pula; na marca de música, os arcos pulsam na batida; na marca esportiva, o símbolo risca a tela.
 S: Visual: formas e cores exatas dos logotipos. Movimento com a energia própria de cada marca. Escreva um jingle de 3 segundos para cada uma, em código (Web Audio), travado ao movimento. Começa sem som.
-E: Desenhe todos os frames em código a partir de uma única função render(t). Adicione textura real para parecer feito à mão. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
+E: Desenhe todos os frames em código a partir de uma única funçêo render(t). Adicione textura real para parecer feito à mêo. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
 <p><b>La pregunta correcta:</b> no «¿qué animación aplico a todo?», sino «¿qué movimiento representa esta marca?». Geométrica → los bloques se ensamblan. Musical → pulsa. Deportiva → movimiento rápido.</p>
 <p><b>Atención:</b> usa siempre el archivo real del logotipo. Si la IA lo dibuja de memoria, queda mal. Y, si la marca no es tuya, úsala solo en presentaciones de esa misma marca o con autorización.</p></article>
 <article class="pedido"><h2 id="nivel-6-estilo-de-uma-referencia">Nivel 6 — Tomar el estilo de una imagen de referencia</h2>
@@ -153,8 +153,8 @@ E: Desenhe todos os frames em código a partir de uma única função render(t).
 <p>Dónde usarlo: cuando encuentras un visual que te encanta (en un sitio de curaduría de diseño, en un mural de inspiración) y quieres ese lenguaje en una pieza tuya.</p>
 <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R: Esta imagem de referência: [link ou arquivo].
 I: Um explicativo de 10 segundos: "Como um extrator lê um site: entra a URL; saem logotipo, cores e fontes."
-S: Pegue o estilo da referência (paleta, tipografia, textura, composição), não a imagem. Primeiro escreva como ela é e como ela se moveria; depois construa.
-E: Desenhe todos os frames em código a partir de uma única função render(t). Adicione textura real para parecer feito à mão. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
+S: Pegue o estilo da referência (paleta, tipografia, textura, composiçêo), nêo a imagem. Primeiro escreva como ela é e como ela se moveria; depois construa.
+E: Desenhe todos os frames em código a partir de uma única funçêo render(t). Adicione textura real para parecer feito à mêo. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
 <p><b>Estructura:</b> referencia → extracción del lenguaje visual (¡por escrito!) → composición nueva. «Primero escribe, después construye» es lo que hace que el modelo mantenga coherentes la tipografía y la paleta.</p>
 <p><b>Si queda «casi»:</b> perfecciona con una sola frase —p. ej.: «añade un filtro de película de los años 80, con un ligero efecto de película quemada».</p></article>
 <article class="pedido"><h2 id="nivel-7-producao-em-escala">Nivel 7 — Entran cien sitios, salen cien películas</h2>
@@ -163,7 +163,7 @@ E: Desenhe todos os frames em código a partir de uma única função render(t).
 <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R: sites.txt tem 100 sites. Extraia a marca de cada um: nome, logotipo, 2 a 3 cores, fonte.
 I: Um template de 8 segundos, "{Nome}, em movimento", que fique bom para qualquer marca.
 S: Visual premium, com contraste automático para logos claros e escuros. Movimento: o logotipo entra riscando, as cores varrem a tela, a frase assenta. Renderize os 100 como mp4 1080x1080 com Chrome headless e ffmpeg, depois um vídeo-mural 10x10. Teste em 5 primeiro.
-E: Desenhe todos os frames em código a partir de uma única função render(t). Adicione textura real para parecer feito à mão. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
+E: Desenhe todos os frames em código a partir de uma única funçêo render(t). Adicione textura real para parecer feito à mêo. Antes de terminar, confira os frames em 0%, 25%, 50%, 75% e 100% e corrija o que estiver errado.</pre></div>
 <p><b>La regla de oro:</b> PRUEBA (5) → VALIDACIÓN → ESCALA (100). Sirve para cualquier flujo con agentes.</p>
 <p><b>Por qué <code>render(t)</code> hace posible esto:</b> la plantilla es una función pura que recibe tiempo + tema. Cambiar la marca es cambiar el <code>theme</code>; el renderizado de cada frame es determinista, así que Chrome headless captura frame por frame y ffmpeg arma el mp4.</p></article>
 <h2 class="grupo">Los 6 estilos</h2>
@@ -188,51 +188,51 @@ Regras:
 2. As barras só sobem quando o feixe as alcança.
 3. Uma barra argila; todo o resto é tinta.
 4. Pontos na linha de tendência, desenhados depois que as barras assentam.
-5. Grão e vinheta sobre tudo.
+5. Grêo e vinheta sobre tudo.
 
 E — EXAMINAR
-Construa um único arquivo HTML: um &lt;canvas&gt; e uma função pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
+Construa um único arquivo HTML: um &lt;canvas&gt; e uma funçêo pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
 Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; nenhuma barra sobe antes de o feixe chegar; a linha de tendência toca o topo de todas as barras; o título nunca é cortado; o slide nunca encosta na borda do quadro. Corrija o que falhar e renderize de novo até todas as checagens passarem.</pre></div></article>
 <article class="pedido"><h2 id="estilo-02-lousa-documental">Estilo 02 — Pizarra documental con calibrador</h2>
 <ul><li><b>Visual:</b> explicativo documental: una pizarra de carbón borrosa, una grotesca blanca de trazo grueso, un calibrador amarillo de medición, un trazo naranja cursivo.</li><li><b>Movimiento:</b> las barras suben con cada golpe, un calibrador amarillo mide la más alta, el número salta, un trazo subraya una palabra, corte seco.</li></ul>
 <p><b>Cinco reglas:</b> (1) solo dos tamaños de tipografía: etiqueta y número 2,6× mayor; (2) Title Case, grotesca pesada, blanca — nunca en mayúsculas, nunca texto de color; (3) el calibrador cubre exactamente la altura que mide y aparece antes del número; (4) el número salta 80 ms después del corchete: 0,85 → 1, sin fade; (5) naranja solo como trazo: un subrayado cursivo bajo una palabra del título, una vez.</p>
 <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R — REFERÊNCIAS
-• Explicativos de documentário em estilo "lousa": campo de lousa de carvão, tipografia grotesca pesada branca, colchetes de medida amarelos.
+• Explicativos de documentário em estilo "lousa": campo de lousa de carvêo, tipografia grotesca pesada branca, colchetes de medida amarelos.
 • Pranchas de guia de campo: um assunto, um fato medido.
 • Pegue a gramática visual, nunca a marca de nenhum canal.
 
 I — IDEIA
 Uma imagem com início, meio e fim, 5 segundos, em loop com corte seco:
-• Início (0–1,4 s): o título "Design Em Movimento" está numa lousa de carvão borrada; uma linha de base se desenha e três barras sobem, uma por batida.
+• Início (0–1,4 s): o título "Design Em Movimento" está numa lousa de carvêo borrada; uma linha de base se desenha e três barras sobem, uma por batida.
 • Meio (1,4–3,1 s): um paquímetro amarelo mede a barra mais alta, depois o número "3×" salta ao lado; um traço cursivo laranja sublinha uma palavra do título.
 • Fim (3,1–5 s): uma pausa parada de pelo menos 1,5 s, depois um corte seco de um frame de volta ao título sozinho.
 
 S — ESTILO
-Visual: lousa de carvão #0d0d0d com manchas de giz e poeira, texto #f4f1ea em Plus Jakarta Sans ExtraBold em Title Case, barras com preenchimento translúcido #f4f1ea e contorno de 2 px #f4f1ea, um paquímetro #f5e918, um traço #f0862b.
-Movimento: cada construção dura 300–450 ms em quint-out, uma por batida, depois congela. O paquímetro se desenha em 400 ms, o número salta 80 ms depois (0,85 → 1, outBack, sem fade). O traço se desenha em 450 ms. A prancha avança até 1,05 de zoom ao longo da cena.
+Visual: lousa de carvêo #0d0d0d com manchas de giz e poeira, texto #f4f1ea em Plus Jakarta Sans ExtraBold em Title Case, barras com preenchimento translúcido #f4f1ea e contorno de 2 px #f4f1ea, um paquímetro #f5e918, um traço #f0862b.
+Movimento: cada construçêo dura 300–450 ms em quint-out, uma por batida, depois congela. O paquímetro se desenha em 400 ms, o número salta 80 ms depois (0,85 → 1, outBack, sem fade). O traço se desenha em 450 ms. A prancha avança até 1,05 de zoom ao longo da cena.
 Regras:
 1. Só dois tamanhos de tipo; o número é 2,6× o rótulo.
 2. O paquímetro cobre exatamente a altura total da barra, com os ticks voltados para a barra e a aba voltada para o número.
-3. Destaques são só traços, abaixo de 0,5% do quadro cada, nunca mais de dois.
+3. Destaques sêo só traços, abaixo de 0,5% do quadro cada, nunca mais de dois.
 4. Nenhum anel, círculo ou elipse em lugar nenhum.
 5. A lousa nunca é chapada: a luminância varia um pouco em todo lugar.
 6. Pausa parada no fim, depois corte seco (sem crossfade).
 
 E — EXAMINAR
-Construa um único arquivo HTML: um &lt;canvas&gt; e uma função pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
-Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; só dois tamanhos de tipo; o colchete termina exatamente no topo e na base da barra; o número fica no meio da altura da aba; o traço está sob uma palavra só; a lousa não é chapada. Corrija o que falhar e renderize de novo até todas as checagens passarem.</pre></div></article>
+Construa um único arquivo HTML: um &lt;canvas&gt; e uma funçêo pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
+Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; só dois tamanhos de tipo; o colchete termina exatamente no topo e na base da barra; o número fica no meio da altura da aba; o traço está sob uma palavra só; a lousa nêo é chapada. Corrija o que falhar e renderize de novo até todas as checagens passarem.</pre></div></article>
 <article class="pedido"><h2 id="estilo-03-tipografia-suica">Estilo 03 — Póster suizo con tipografía cinética</h2>
 <ul><li><b>Visual:</b> Estilo Tipográfico Internacional: una palabra grotesca enorme en una cuadrícula rígida, un disco rojo, líneas finas.</li><li><b>Movimiento:</b> las letras suben desde una máscara en la línea de base, su peso ondula en una ola que avanza, el disco rebota por la cuadrícula al ritmo de la música.</li></ul>
 <p><b>Cinco reglas:</b> (1) todo encaja en una cuadrícula de 12 columnas, nada flota; (2) una palabra enorme, apretada (tracking −2%), alineada a la izquierda en la línea de base; (3) el disco rojo es el único color, el resto es tinta; (4) las letras entran desde una máscara en la base, escalonadas 60 ms, quint-out; (5) el peso ES el movimiento: una onda de 260 a 860 recorre la palabra.</p>
 <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R — REFERÊNCIAS
 • O Estilo Tipográfico Internacional (design suíço): grades rígidas, equilíbrio assimétrico, uma cor forte.
 • Animações de "onda de peso" com fonte variável (busque: variable font kinetic typography).
-• Copie a disciplina, não os layouts.
+• Copie a disciplina, nêo os layouts.
 
 I — IDEIA
 Uma imagem, contada em 5 segundos, em loop sem costura:
 • Início (0–1,3 s): uma grade vazia com um disco vermelho; a palavra "Motion" sobe letra por letra de uma máscara na linha de base.
-• Meio (1,3–3,9 s): a palavra se mantém enquanto uma onda de peso percorre as letras; o disco pula para uma nova posição da grade a cada batida.
+• Meio (1,3–3,9 s): a palavra se mantém enquanto uma onda de peso percorre as letras; o disco pula para uma nova posiçêo da grade a cada batida.
 • Fim (3,9–5 s): as letras saem pelo topo da máscara, o fio se recolhe e o quadro volta a como começou.
 
 S — ESTILO
@@ -244,11 +244,11 @@ Regras:
 3. O disco é a única cor.
 4. As letras entram de uma máscara na linha de base, escalonadas; saem do mesmo jeito, para cima.
 5. A onda de peso é o movimento; posições só mudam nas entradas e saídas.
-6. Grão e uma queda de luz suave para o fundo nunca ficar chapado.
+6. Grêo e uma queda de luz suave para o fundo nunca ficar chapado.
 7. Mantenha a palavra inteira na tela por pelo menos 1,2 s.
 
 E — EXAMINAR
-Construa um único arquivo HTML: um &lt;canvas&gt; e uma função pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
+Construa um único arquivo HTML: um &lt;canvas&gt; e uma funçêo pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
 Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; a palavra cabe sem letras cortadas; o disco pousa exatamente nos pontos da grade; as legendas nunca colidem com a palavra; a onda de peso se lê como uma onda suave única. Corrija o que falhar e renderize de novo até todas as checagens passarem.</pre></div></article>
 <article class="pedido"><h2 id="estilo-04-tinta-sumi">Estilo 04 — Tinta sumi que florece</h2>
 <ul><li><b>Visual:</b> un único ensō pintado con pincel en tinta luminosa sobre papel oscuro y húmedo, que se extiende en un halo suave con borde de marea, sellado en bermellón.</li><li><b>Movimiento:</b> el pincel se posa, barre el círculo de un solo trazo, la tinta florece hacia afuera, el sello estampa y todo se seca hasta convertirse en un fantasma.</li></ul>
@@ -261,24 +261,24 @@ Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao f
 I — IDEIA
 Uma imagem, um fôlego, 5 segundos, em loop sem costura:
 • Início (0–1,9 s): um pincel carregado pousa no papel escuro e úmido e varre um círculo, rápido no meio, lento nas pontas, abrindo em cerdas secas na cauda.
-• Meio (1,9–3,9 s): a tinta sangra para fora no papel e um selo vermelhão com a inicial de "Motion" carimba uma vez, com força.
+• Meio (1,9–3,9 s): a tinta sangra para fora no papel e um selo vermelhêo com a inicial de "Motion" carimba uma vez, com força.
 • Fim (3,9–5 s): a tinta seca até um fantasma leve do círculo, que é onde a próxima pincelada começa.
 
 S — ESTILO
-Visual: papel #0d0c0b com fibras visíveis e manchas, tinta luminosa #ede6d8, uma floração fria #7f93a8, um pequeno selo #d8432f com a letra entalhada em Newsreader. Espaço vazio generoso em volta de um círculo.
-Movimento: velocidade do pincel em ease-in-out ao longo de 1,6 s; a floração cresce depois do traço com borda de ruído esfumada; o selo escala de 1,2 para 1 em 0,25 s; o fade até o fantasma em ease-out.
+Visual: papel #0d0c0b com fibras visíveis e manchas, tinta luminosa #ede6d8, uma floraçêo fria #7f93a8, um pequeno selo #d8432f com a letra entalhada em Newsreader. Espaço vazio generoso em volta de um círculo.
+Movimento: velocidade do pincel em ease-in-out ao longo de 1,6 s; a floraçêo cresce depois do traço com borda de ruído esfumada; o selo escala de 1,2 para 1 em 0,25 s; o fade até o fantasma em ease-out.
 Regras:
-1. Uma pincelada, desenhada como uma forma preenchida cuja largura segue a pressão do pincel.
+1. Uma pincelada, desenhada como uma forma preenchida cuja largura segue a pressêo do pincel.
 2. Falhas de pincel seco (riscos finos de papel) só no último terço.
-3. Floração = lavado suave + uma borda de maré mais clara na beira, guiada por ruído.
+3. Floraçêo = lavado suave + uma borda de maré mais clara na beira, guiada por ruído.
 4. Mais sangria onde o pincel estava molhado (o começo), menos na cauda seca.
 5. Respingos: alguns pontos lançados para fora onde o pincel pousa.
 6. O selo é a única cor e carimba uma vez.
-7. Textura de papel, queda de luz e grão em todos os frames.
+7. Textura de papel, queda de luz e grêo em todos os frames.
 
 E — EXAMINAR
-Construa um único arquivo HTML: um &lt;canvas&gt; e uma função pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
-Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; a largura do traço afina de verdade; a floração tem borda, não é só desfoque; a letra do selo é nítida e não está cortada; o papel nunca é uma cor chapada. Corrija o que falhar e renderize de novo até todas as checagens passarem.</pre></div></article>
+Construa um único arquivo HTML: um &lt;canvas&gt; e uma funçêo pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
+Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; a largura do traço afina de verdade; a floraçêo tem borda, nêo é só desfoque; a letra do selo é nítida e nêo está cortada; o papel nunca é uma cor chapada. Corrija o que falhar e renderize de novo até todas as checagens passarem.</pre></div></article>
 <article class="pedido"><h2 id="estilo-05-papel-recortado">Estilo 05 — Capas de papel recortado</h2>
 <ul><li><b>Visual:</b> un mar nocturno hecho de papel apilado: seis capas de olas con sombra real, una luna de papel en capas y un barquito plegado.</li><li><b>Movimiento:</b> cada capa se desplaza a su propio ritmo y en su propia dirección, el barco sigue la ola, los pájaros planean, las estrellas titilan.</li></ul>
 <p><b>Cinco reglas:</b> (1) cada forma es una capa recortada que proyecta una sombra suave sobre la de atrás; (2) las capas más lejanas son más claras — perspectiva atmosférica en papel; (3) bordes de tijera: levemente irregulares, nunca curvas perfectas; (4) una luz fina ilumina el borde superior de cada capa; (5) las capas se mueven a distintas velocidades y en direcciones alternadas (paralaje).</p>
@@ -294,44 +294,44 @@ Uma imagem, uma noite calma no mar, 5 segundos, em loop sem costura:
 
 S — ESTILO
 Visual: noite #0e1016, camadas graduadas de #4f7396 (longe) a quase preto (perto), cada uma com sombra suave e borda de cima iluminada; a lua em #f2a541 com dois anéis de papel; o barco e os pássaros em #f2e8d8. Textura de fibra de papel em tudo.
-Movimento: cada camada rola um número inteiro de comprimentos de onda por loop, alternando a direção; balanço senoidal suave; o barco segue a altura e a inclinação da sua onda.
+Movimento: cada camada rola um número inteiro de comprimentos de onda por loop, alternando a direçêo; balanço senoidal suave; o barco segue a altura e a inclinaçêo da sua onda.
 Regras:
 1. Toda camada projeta sombra na camada de trás.
-2. Camadas mais distantes são mais claras e mais azuis.
+2. Camadas mais distantes sêo mais claras e mais azuis.
 3. Bordas irregulares de tesoura.
 4. Uma borda fina iluminada no topo de cada camada.
 5. Paralaxe: velocidades diferentes, direções alternadas.
 6. Um destaque só, na lua.
 
 E — EXAMINAR
-Construa um único arquivo HTML: um &lt;canvas&gt; e uma função pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
+Construa um único arquivo HTML: um &lt;canvas&gt; e uma funçêo pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
 Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; toda camada tem sombra visível; o barco está sobre a onda (nunca flutuando nem afundado); nenhuma borda parece perfeita de máquina; a textura de papel está visível. Corrija o que falhar e renderize de novo até todas as checagens passarem.</pre></div></article>
 <article class="pedido"><h2 id="estilo-06-risografia">Estilo 06 — Risografía en dos colores</h2>
 <ul><li><b>Visual:</b> dos tintas fluorescentes sobre papel negro: un sol a rayas, un letrero condensado gigante, grano, fallas y desregistro.</li><li><b>Movimiento:</b> impreso a 12 cuadros por segundo: el sol sale y se pone, los letreros se deslizan en direcciones opuestas, las placas tiemblan fuera de registro.</li></ul>
 <p><b>Cinco reglas:</b> (1) exactamente dos tintas; donde se superponen se convierten en un tercer color; (2) cada capa de tinta "imprime": puntitos de falla y densidad irregular; (3) las dos planchas quedan levemente desalineadas y tiemblan en cada cuadro; (4) animación "a dos": 12 cuadros impresos por segundo, grano nuevo en cada cuadro; (5) una palabra condensada enorme, repetida como marquesina en movimiento.</p>
 <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">R — REFERÊNCIAS
 • Impressões e zines em risografia (busque: risograph two colour print, fluorescent pink riso).
-• Animações stop-motion em riso: cada quadro impresso, o grão mudando de quadro a quadro.
+• Animações stop-motion em riso: cada quadro impresso, o grêo mudando de quadro a quadro.
 
 I — IDEIA
 Uma imagem com início, meio e fim, 5 segundos, em loop sem costura:
 • Início (0–1,5 s): um sol listrado baixo no quadro; um letreiro condensado gigante com a palavra "Print" começa a deslizar sobre ele.
 • Meio (1,5–3,5 s): o sol sobe através do letreiro; onde as tintas se sobrepõem, viram uma terceira cor; um segundo letreiro menor corre no sentido oposto.
-• Fim (3,5–5 s): o sol se põe de volta onde começou e os dois letreiros pousam exatamente uma repetição adiante.
+• Fim (3,5–5 s): o sol se põe de volta onde começou e os dois letreiros pousam exatamente uma repetiçêo adiante.
 
 S — ESTILO
 Visual: papel preto #111111 com fibras; tinta um #ff48b0, tinta dois #1f9bd1; Anton enorme e condensada; marcas de registro nos cantos.
-Movimento: tudo anda em passos de 12 fps; os letreiros andam exatamente uma repetição por loop; as chapas tremem fora de registro uma fração de porcento a cada quadro impresso.
+Movimento: tudo anda em passos de 12 fps; os letreiros andam exatamente uma repetiçêo por loop; as chapas tremem fora de registro uma fraçêo de porcento a cada quadro impresso.
 Regras:
 1. Só duas tintas, misturadas em modo screen sobre o papel escuro.
 2. Pontinhos de falha e densidade irregular em cada camada de tinta.
 3. Desregistro: uma chapa deslocada e tremendo.
-4. Movimento em passos de 12 fps; grão novo a cada quadro.
-5. Listras ou grão no lugar de degradês.
+4. Movimento em passos de 12 fps; grêo novo a cada quadro.
+5. Listras ou grêo no lugar de degradês.
 
 E — EXAMINAR
-Construa um único arquivo HTML: um &lt;canvas&gt; e uma função pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
-Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; exatamente duas tintas mais a sobreposição; o grão é visível em tamanho real; o letreiro dá a volta sem pulo; o desregistro é sutil, não parece quebrado. Corrija o que falhar e renderize de novo até todas as checagens passarem.</pre></div></article>
+Construa um único arquivo HTML: um &lt;canvas&gt; e uma funçêo pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
+Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; exatamente duas tintas mais a sobreposiçêo; o grêo é visível em tamanho real; o letreiro dá a volta sem pulo; o desregistro é sutil, nêo parece quebrado. Corrija o que falhar e renderize de novo até todas as checagens passarem.</pre></div></article>
 </main>
 <footer class="pe">Motion RISE v6 · INEMA.CLUB PRO · <a href="../landing.html">sobre el curso</a></footer>
 <script>

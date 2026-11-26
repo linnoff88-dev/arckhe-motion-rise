@@ -9,12 +9,12 @@
 R — REFERÊNCIAS
 • O Estilo Tipográfico Internacional (design suíço): grades rígidas, equilíbrio assimétrico, uma cor forte.
 • Animações de "onda de peso" com fonte variável (busque: variable font kinetic typography).
-• Copie a disciplina, não os layouts.
+• Copie a disciplina, nêo os layouts.
 
 I — IDEIA
 Uma imagem, contada em 5 segundos, em loop sem costura:
 • Início (0–1,3 s): uma grade vazia com um disco vermelho; a palavra "Motion" sobe letra por letra de uma máscara na linha de base.
-• Meio (1,3–3,9 s): a palavra se mantém enquanto uma onda de peso percorre as letras; o disco pula para uma nova posição da grade a cada batida.
+• Meio (1,3–3,9 s): a palavra se mantém enquanto uma onda de peso percorre as letras; o disco pula para uma nova posiçêo da grade a cada batida.
 • Fim (3,9–5 s): as letras saem pelo topo da máscara, o fio se recolhe e o quadro volta a como começou.
 
 S — ESTILO
@@ -26,10 +26,10 @@ Regras:
 3. O disco é a única cor.
 4. As letras entram de uma máscara na linha de base, escalonadas; saem do mesmo jeito, para cima.
 5. A onda de peso é o movimento; posições só mudam nas entradas e saídas.
-6. Grão e uma queda de luz suave para o fundo nunca ficar chapado.
+6. Grêo e uma queda de luz suave para o fundo nunca ficar chapado.
 7. Mantenha a palavra inteira na tela por pelo menos 1,2 s.
 
 E — EXAMINAR
-Construa um único arquivo HTML: um <canvas> e uma função pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
+Construa um único arquivo HTML: um <canvas> e uma funçêo pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
 Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; a palavra cabe sem letras cortadas; o disco pousa exatamente nos pontos da grade; as legendas nunca colidem com a palavra; a onda de peso se lê como uma onda suave única. Corrija o que falhar e renderize de novo até todas as checagens passarem.
 ```

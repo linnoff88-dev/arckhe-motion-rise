@@ -11,7 +11,7 @@
 <canvas id="c"></canvas>
 <script>
 // Nível 1 do método RISE: um feixe percorre a linha do tempo e acende três marcos. Loop de 10 s.
-// Tudo sai de uma função pura render(ctx, t, theme, w, h): mesmo t, mesmo quadro.
+// Tudo sai de uma funçêo pura render(ctx, t, theme, w, h): mesmo t, mesmo quadro.
 // ?t=2.5 congela num instante (usado na conferência dos cinco quadros).
 const DUR = 10;
 const theme = { bg: '#f3ecdf', ink: '#1f1b16', accent: '#c8643b', soft: '#8a7f70', font: 'Inter' };
@@ -29,7 +29,7 @@ function render(ctx, t, th, w, h) {
   const g = ctx.createRadialGradient(w * .3, h * .25, 0, w * .5, h * .5, Math.max(w, h) * .8);
   g.addColorStop(0, '#fbf6ec'); g.addColorStop(1, '#e6dccb');
   ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
-  // grão determinístico (fixo: o papel não "ferve")
+  // grêo determinístico (fixo: o papel nêo "ferve")
   for (let i = 0; i < 1800; i++) {
     const x = hash(i, 1) * w, y = hash(i, 2) * h, a = hash(i, 3) * .07;
     ctx.fillStyle = `rgba(60,40,20,${a})`; ctx.fillRect(x, y, 1.4, 1.4);

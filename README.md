@@ -1,4 +1,4 @@
-﻿# Motion em cÃ³digo â€” MÃ©todo RISE
+ï»¿# Motion em cêÂ³digo ê¢â¬â MêÂ©todo RISE
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,41 +6,41 @@
 </div>
 
 
-Curso e biblioteca de prompts para criar motion graphics desenhados em cÃ³digo com o **Claude Opus 5.5**.
+Curso e biblioteca de prompts para criar motion graphics desenhados em cêÂ³digo com o **Claude Opus 5.5**.
 
-**RISE** = **R**eferÃªncias Â· **I**deia Â· **S**tyle (estilo) Â· **E**xaminar.
-Um prompt que nÃ£o diz sÃ³ *o que* gerar, mas *como produzir, como testar e quando estÃ¡ pronto*.
+**RISE** = **R**eferêÂªncias êÂ· **I**deia êÂ· **S**tyle (estilo) êÂ· **E**xaminar.
+Um prompt que nêÂ£o diz sêÂ³ *o que* gerar, mas *como produzir, como testar e quando estêÂ¡ pronto*.
 
 ## Prompts prontos (`prompts/`)
 
-| Arquivo | O que Ã© |
+| Arquivo | O que êÂ© |
 |---|---|
 | `00-template-rise.md` | O prompt em branco (curto e completo) |
-| `niveis/nivel-1â€¦7` | Os 7 nÃ­veis: slide animado, hero de site, reel com legenda, uma cena em vÃ¡rios formatos, logo com jingle, estilo de uma referÃªncia, produÃ§Ã£o em escala |
-| `estilos/estilo-01â€¦06` | 6 estilos com prompt RISE completo: grÃ¡fico editorial, lousa documental, tipografia suÃ­Ã§a, tinta sumi, papel recortado, risografia |
-| `99-checklist-10-falhas.md` | As 10 falhas de uma animaÃ§Ã£o amadora + versÃ£o em prompt |
+| `niveis/nivel-1ê¢â¬Â¦7` | Os 7 nêÂ­veis: slide animado, hero de site, reel com legenda, uma cena em vêÂ¡rios formatos, logo com jingle, estilo de uma referêÂªncia, produêÂ§êÂ£o em escala |
+| `estilos/estilo-01ê¢â¬Â¦06` | 6 estilos com prompt RISE completo: grêÂ¡fico editorial, lousa documental, tipografia suêÂ­êÂ§a, tinta sumi, papel recortado, risografia |
+| `99-checklist-10-falhas.md` | As 10 falhas de uma animaêÂ§êÂ£o amadora + versêÂ£o em prompt |
 
 ## Curso
 
-**https://inematds.github.io/motion-rise/** â€” 10 aulas de ~15 min (formato v6, iniciante 30+).
+**https://inematds.github.io/motion-rise/** ê¢â¬â 10 aulas de ~15 min (formato v6, iniciante 30+).
 
-- `landing.html` (pÃ¡gina do curso) â†’ `curso.html` (as aulas; montado por `montar-curso.py` a partir de `aulas/aula-N.html`)
-- `exemplos/` â€” animaÃ§Ãµes reais em `render(t)` embutidas nas aulas (slide com feixe, pÃ´ster suÃ­Ã§o)
-- `context/` â€” currÃ­culo, leitor simulado, descriÃ§Ãµes das cenas
+- `landing.html` (pêÂ¡gina do curso) ê¢â â `curso.html` (as aulas; montado por `montar-curso.py` a partir de `aulas/aula-N.html`)
+- `exemplos/` ê¢â¬â animaêÂ§êÂµes reais em `render(t)` embutidas nas aulas (slide com feixe, pêÂ´ster suêÂ­êÂ§o)
+- `context/` ê¢â¬â currêÂ­culo, leitor simulado, descriêÂ§êÂµes das cenas
 
-ConteÃºdo aberto e gratuito â€” INEMA.CLUB.
+ConteêÂºdo aberto e gratuito ê¢â¬â INEMA.CLUB.
 
 ## Mais no INEMA.CLUB
 
 - [Ficha deste curso](https://www.inema.club/cursos/287-motion-rise-v6-animacoes-que-saem-de-um-pedido/)
-- [Guia: como aprender inteligÃªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
+- [Guia: como aprender inteligêÂªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
 - [Todos os cursos](https://www.inema.club/cursos/)
 
 <!-- inema-backlink:v1 -->
 ## Mais no INEMA.CLUB
 
 - [Ficha completa deste curso](https://www.inema.club/cursos/287-motion-rise-v6-animacoes-que-saem-de-um-pedido/)
-- [Guia: como aprender inteligÃªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
+- [Guia: como aprender inteligêÂªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
 - [Todos os cursos](https://www.inema.club/cursos/)
 <!-- /inema-backlink:v1 -->
 

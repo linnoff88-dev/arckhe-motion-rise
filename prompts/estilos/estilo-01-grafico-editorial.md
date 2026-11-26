@@ -24,9 +24,9 @@ Regras:
 2. As barras só sobem quando o feixe as alcança.
 3. Uma barra argila; todo o resto é tinta.
 4. Pontos na linha de tendência, desenhados depois que as barras assentam.
-5. Grão e vinheta sobre tudo.
+5. Grêo e vinheta sobre tudo.
 
 E — EXAMINAR
-Construa um único arquivo HTML: um <canvas> e uma função pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
+Construa um único arquivo HTML: um <canvas> e uma funçêo pura render(ctx, t, theme, w, h) que desenha o frame t (0–5 s) a partir de theme {bg, ink, accent, accent2, font}. Mesmo t, mesmo frame, em qualquer ordem; hash com semente, sem Math.random. Precisa funcionar em 16:9, 9:16 e 1:1.
 Renderize 5 frames (t = 0; 1,25; 2,5; 3,75; 5). Confira: o frame 0 é igual ao frame 5; nenhuma barra sobe antes de o feixe chegar; a linha de tendência toca o topo de todas as barras; o título nunca é cortado; o slide nunca encosta na borda do quadro. Corrija o que falhar e renderize de novo até todas as checagens passarem.
 ```

@@ -1,4 +1,4 @@
-# Checklist — as 10 falhas que entregam uma animação amadora
+# Checklist — as 10 falhas que entregam uma animaçêo amadora
 
 Confira cada frame antes de publicar:
 
@@ -11,7 +11,7 @@ Confira cada frame antes de publicar:
 7. **Texto que some rápido.** Toda palavra fica na tela pelo menos 1,2 s.
 8. **Logo inventado.** Use o arquivo real. Nunca desenhe um logo de memória.
 9. **Fundo carregado.** Uma ideia sobre um fundo calmo.
-10. **Sem textura.** Grão real e ruído sutil, para parecer feito à mão.
+10. **Sem textura.** Grêo real e ruído sutil, para parecer feito à mêo.
 
 ## Como prompt (cole no fim de qualquer pedido)
 
@@ -26,5 +26,5 @@ Antes de terminar, confira cada frame contra estas dez falhas e corrija qualquer
 7. Texto que some rápido: toda palavra fica na tela pelo menos 1,2 s.
 8. Logo inventado: use o arquivo real. Nunca desenhe um logo de memória.
 9. Fundo carregado: uma ideia sobre um fundo calmo.
-10. Sem textura: grão real e ruído sutil, para parecer feito à mão.
+10. Sem textura: grêo real e ruído sutil, para parecer feito à mêo.
 ```

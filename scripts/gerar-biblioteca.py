@@ -98,7 +98,7 @@ pagina = f"""<!doctype html>
 <main class="wrap bib">
   <p class="kicker">Motion RISE v6 · biblioteca</p>
   <h1>Pedidos prontos para copiar</h1>
-  <p>Toque em <b>copiar</b>, cole no chat do Claude (modelo Opus 5.5) e troque o que está entre &lt; &gt; ou [ ]. As linhas técnicas (render(t), tamanhos como 1920x1080, códigos de cor) são instruções para a IA: copie sem mexer.</p>
+  <p>Toque em <b>copiar</b>, cole no chat do Claude (modelo Opus 5.5) e troque o que está entre &lt; &gt; ou [ ]. As linhas técnicas (render(t), tamanhos como 1920x1080, códigos de cor) sêo instruções para a IA: copie sem mexer.</p>
   <ul class="indice">
 {chr(10).join(indice)}
   </ul>
