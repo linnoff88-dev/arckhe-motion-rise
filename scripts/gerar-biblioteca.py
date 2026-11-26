@@ -75,7 +75,7 @@ pagina = f"""<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Biblioteca de pedidos · Motion RISE v6 · INEMA.CLUB PRO</title>
+<title>Biblioteca de pedidos · Motion RISE v6 · ARCKHÉ AI PRO</title>
 <meta name="description" content="Todos os pedidos do curso Motion RISE v6, prontos para copiar: o molde RISE, os 7 níveis, os 6 estilos e a lista das 10 falhas.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -92,7 +92,7 @@ pagina = f"""<!doctype html>
 </head>
 <body>
 <header class="bar"><div class="bar-inner">
-  <span class="brand"><a class="mark" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a><a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a><a class="course" href="landing.html">Motion RISE v6</a></span>
+  <span class="brand"><a class="mark" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a><a class="pro" href="https://ARCKHÉ.pro" target="_blank" rel="noopener">PRO</a><a class="course" href="landing.html">Motion RISE v6</a></span>
   <a class="btn" href="curso.html#trilha">aulas</a>
 </div></header>
 <main class="wrap bib">
@@ -104,7 +104,7 @@ pagina = f"""<!doctype html>
   </ul>
 {chr(10).join(secoes)}
 </main>
-<footer class="pe">Motion RISE v6 · INEMA.CLUB PRO · <a href="landing.html">sobre o curso</a></footer>
+<footer class="pe">Motion RISE v6 · ARCKHÉ AI PRO · <a href="landing.html">sobre o curso</a></footer>
 <script>
 document.querySelectorAll('.pcopy').forEach(b => b.addEventListener('click', () => {{
   const t = b.parentElement.querySelector('pre').innerText;

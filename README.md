@@ -22,27 +22,27 @@ Um prompt que nêÂ£o diz sêÂ³ *o que* gerar, mas *como produzir, como t
 
 ## Curso
 
-**https://inematds.github.io/motion-rise/** ê¢â¬â 10 aulas de ~15 min (formato v6, iniciante 30+).
+**https://linnoff88-dev.github.io/arckhe-/** ê¢â¬â 10 aulas de ~15 min (formato v6, iniciante 30+).
 
 - `landing.html` (pêÂ¡gina do curso) ê¢â â `curso.html` (as aulas; montado por `montar-curso.py` a partir de `aulas/aula-N.html`)
 - `exemplos/` ê¢â¬â animaêÂ§êÂµes reais em `render(t)` embutidas nas aulas (slide com feixe, pêÂ´ster suêÂ­êÂ§o)
 - `context/` ê¢â¬â currêÂ­culo, leitor simulado, descriêÂ§êÂµes das cenas
 
-ConteêÂºdo aberto e gratuito ê¢â¬â INEMA.CLUB.
+ConteêÂºdo aberto e gratuito ê¢â¬â ARCKHÉ AI.
 
-## Mais no INEMA.CLUB
+## Mais no ARCKHÉ AI
 
-- [Ficha deste curso](https://www.inema.club/cursos/287-motion-rise-v6-animacoes-que-saem-de-um-pedido/)
-- [Guia: como aprender inteligêÂªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
-- [Todos os cursos](https://www.inema.club/cursos/)
+- [Ficha deste curso](https://www.ARCKHÉ AI/cursos/287-motion-rise-v6-animacoes-que-saem-de-um-pedido/)
+- [Guia: como aprender inteligêÂªncia artificial](https://www.ARCKHÉ AI/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.ARCKHÉ AI/cursos/)
 
-<!-- inema-backlink:v1 -->
-## Mais no INEMA.CLUB
+<!-- ARCKHÉ-backlink:v1 -->
+## Mais no ARCKHÉ AI
 
-- [Ficha completa deste curso](https://www.inema.club/cursos/287-motion-rise-v6-animacoes-que-saem-de-um-pedido/)
-- [Guia: como aprender inteligêÂªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
-- [Todos os cursos](https://www.inema.club/cursos/)
-<!-- /inema-backlink:v1 -->
+- [Ficha completa deste curso](https://www.ARCKHÉ AI/cursos/287-motion-rise-v6-animacoes-que-saem-de-um-pedido/)
+- [Guia: como aprender inteligêÂªncia artificial](https://www.ARCKHÉ AI/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.ARCKHÉ AI/cursos/)
+<!-- /ARCKHÉ-backlink:v1 -->
 
 ---
 
